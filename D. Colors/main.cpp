@@ -33,7 +33,7 @@ void display()
 	glRotatef(angle, 0.0f, 1.0f, 0.0f);
 	//draw square
 	glBegin(GL_QUADS);
-		glColor3f(0.0f, 1.0f, 1.0f); //cyan
+		glColor3ub(255, 112, 112); //pink
 		glVertex2f(-2.0f, -2.0f);
 		glVertex2f(2.0f, -2.0f);
 		glVertex2f(2.0f, 2.0f);
@@ -46,7 +46,7 @@ void display()
 	glRotatef(angle, 1.0f, 0.0f, 0.0f);
 	//draw pentagon
 	glBegin(GL_POLYGON);
-		glColor3f(1.0f, 0.0f, 1.0f); //magenta
+		glColor3fv(255, 209,112);
 		glVertex2f(-1.0f, -2.0f);
 		glVertex2f(1.0f, -2.0f);
 		glVertex2f(2.0f, 1.0f);

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1726580743 source:c:\users\buksucot000405\documents\codeblocks projects\_for upload revise opengl\e. going3d\main.cpp
+	<GL/glut.h>
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+

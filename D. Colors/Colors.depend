@@ -7,3 +7,6 @@
 	<GL/gl.h>
 	<GL/glu.h>
 
+1726580401 source:c:\users\buksucot000405\documents\codeblocks projects\_for upload revise opengl\d. colors\main.cpp
+	<GL/glut.h>
+
