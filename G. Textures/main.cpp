@@ -7,7 +7,7 @@
 void update(int);
 void reshape(int, int);
 void display();
-void loadTexture(const char *, GLuint);
+void loadTexture(const char *, GLuint, GLenum);
 
 GLfloat ambientLight[] = { 0.2f, 0.2f, 0.2f, 1.0f };
 GLfloat directedLight[] = { 0.7f, 0.7f, 0.7f, 1.0f };
@@ -25,7 +25,8 @@ void initRendering() {
 	glEnable(GL_COLOR_MATERIAL);
 	glShadeModel(GL_SMOOTH);
 
-	loadTexture("pattern.bmp", textures[0]); //load image file 8-32bit .jpg, .png, .bmp
+    glGenTextures(1, textures); // Generate 1 texture IDs
+	loadTexture("pattern.bmp", textures[0], GL_RGB); //load image file 8-32bit .jpg, .png, .bmp
 	//optimal size 256x256, 512x512, 1024x1024
 }
 
@@ -164,12 +165,13 @@ void update(int)
 
 }
 
-void loadTexture(const char *filename, GLuint textureID) {
+//Makes the image into a texture
+void loadTexture(const char *filename, GLuint textureID, GLenum format) {
     int width, height, nrChannels;
     unsigned char *data = stbi_load(filename, &width, &height, &nrChannels, 0);
     if (data) {
         glBindTexture(GL_TEXTURE_2D, textureID);
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);//change GL_RGB to GL_RGBA for blending
+        glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);//change GL_RGB to GL_RGBA for blending
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
         stbi_image_free(data);
