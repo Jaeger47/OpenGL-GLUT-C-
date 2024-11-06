@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1727860195 source:c:\users\buksucot000405\documents\codeblocks projects\test_glew\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<string.h>
+	<fstream>
+	<string>
+
+1501508782 d:\codeblocks-edu-p\codeblocks-ep\sdk\glew\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1730800174 source:c:\users\buksucot000405\documents\codeblocks projects\test_glew - copy\main.cpp
+	<GL/glew.h>
+	<GL/glut.h>
+	<string.h>
+	<fstream>
+	<string>
+	<vector>
+

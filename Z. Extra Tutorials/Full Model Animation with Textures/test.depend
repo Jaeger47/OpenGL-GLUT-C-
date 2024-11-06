@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1730080416 source:c:\users\buksucot000405\documents\codeblocks projects\test\main.cpp
+	<GL/glut.h>
+	"model.h"
+	"model2.h"
+	"stb_image.h"
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1666577846 d:\codeblocks-edu-p\codeblocks-ep\sdk\bass\include\bass.h
+	<winapifamily.h>
+	<wtypes.h>
+	<stdint.h>
+
+1730037275 c:\users\buksucot000405\documents\codeblocks projects\test\model.h
+
+1730078422 c:\users\buksucot000405\documents\codeblocks projects\test\model2.h
+
+1730030356 c:\users\buksucot000405\documents\codeblocks projects\test\model3.h
+
+1730031142 c:\users\buksucot000405\documents\codeblocks projects\test\model4.h
+
+1730037486 c:\users\buksucot000405\documents\codeblocks projects\test\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
