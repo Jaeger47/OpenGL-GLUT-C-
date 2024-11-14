@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1731580222 source:c:\users\buksucot000405\documents\codeblocks projects\_for upload revise opengl\o. camera\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+

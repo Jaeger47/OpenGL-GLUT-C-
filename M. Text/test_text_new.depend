@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1731589625 source:c:\users\buksucot000405\documents\codeblocks projects\test_text_new\main.cpp
+	<GL/glut.h>
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+

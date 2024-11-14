@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1731573713 source:c:\users\buksucot000405\documents\codeblocks projects\bass_test\main.cpp
+	<GL/glut.h>
+	"bass.h"
+	<stdio.h>
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1666577846 d:\codeblocks-edu-p\codeblocks-ep\sdk\bass\include\bass.h
+	<winapifamily.h>
+	<wtypes.h>
+	<stdint.h>
+

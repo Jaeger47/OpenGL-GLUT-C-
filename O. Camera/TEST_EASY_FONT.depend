@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1731579714 source:c:\users\buksucot000405\documents\codeblocks projects\test_easy_font\main.cpp
+	<GL/glut.h>
+	<stdio.h>
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1731578348 c:\users\buksucot000405\documents\codeblocks projects\test_easy_font\stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
