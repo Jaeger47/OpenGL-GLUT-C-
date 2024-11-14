@@ -71,8 +71,8 @@ Here is a brief summary of each project included in this collection:
 To run these projects, you’ll need:
 - **OpenGL**: A compatible version of OpenGL with GLUT.
 - **[Code::Blocks Portable](https://codeblocks.codecutter.org/) IDE**: A C++ IDE to compile and run these projects.
-- **BASS Audio Library**: For projects involving sound (optional if audio isn’t required).
-- **stb_image**: The `stb_image.h` file is included for loading images as textures.
+- **[BASS Audio Library](https://www.un4seen.com/)**: For projects involving sound (optional if audio isn’t required).
+- **[stb_image](https://github.com/nothings/stb/blob/master/stb_image.h)**: The `stb_image.h` file is included for loading images as textures.
 
 ### Installation
 
