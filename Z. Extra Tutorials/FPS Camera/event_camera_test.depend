@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1731562506 source:c:\users\buksucot000405\documents\codeblocks projects\event_camera_test\main.cpp
+	<iostream>
+	<gl/glut.h>
+	"stb_image.h"
+
+1262771448 d:\codeblocks-edu-p\codeblocks-ep\sdk\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1731558552 c:\users\buksucot000405\documents\codeblocks projects\event_camera_test\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
